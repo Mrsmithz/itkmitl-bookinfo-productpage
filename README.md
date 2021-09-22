@@ -17,3 +17,9 @@ python productpage.py 9080
 docker build -t productpage .
 docker run -d --name productpage -p 8083:8083 productpage
 ```
+
+## How to run with docker-compose
+
+```bash
+docker-compose up
+```

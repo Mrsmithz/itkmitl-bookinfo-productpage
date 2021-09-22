@@ -1,0 +1,6 @@
+services:
+  productpage:
+    build: .
+    image: ghcr.io/mrsmithz/itkmitl-bookinfo-productpage:dev
+    ports:
+      - 8083:8083
